@@ -68,4 +68,4 @@ class CodeExplainer:
                 )
             )
 
-            return "\n\n".join(context_parts)
+        return "\n\n".join(context_parts)

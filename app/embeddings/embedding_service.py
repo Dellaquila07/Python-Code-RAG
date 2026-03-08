@@ -32,7 +32,7 @@ class EmbeddingService:
 
         embeddings = [item.embedding for item in response.data]
 
-        self.add_documents(
+        self.collection.add(
             ids=ids,
             embeddings=embeddings,
             documents=contents,
